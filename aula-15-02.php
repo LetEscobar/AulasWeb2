@@ -11,7 +11,7 @@
         <h1>Página <?php echo $escola;?></h1>
         <?php
             for ($i = 1; $i <= 10; $i++){
-                echo '<li class = "list-group-item"> Aluno' . $i . '</li>'
+                echo '<li class = "list-group-item"> Aluno ' . $i . '</li>';
             }
         ?>
     </body>
